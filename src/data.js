@@ -1,56 +1,49 @@
 export const featuredPortfolio = [
   {
     id: 1,
-    title: "Eventory",
-    img: "./assets/portfolio/Eventory.jpg",
-    gitHubLink: "https://github.com/Zoneam/Eventory",
-    deployedLink: "https://my-eventory.herokuapp.com/",
+    title: "Fitnes Metrics+++",
+    img: "./assets/portfolio/notetaker.png",
+    gitHubLink: "https://github.com/Zoneam/Workout-Tracker",
+    deployedLink: "https://fitness-metrics.herokuapp.com/",
   },
   {
     id: 2,
-    title: "Marvelizer",
-    img: "./assets/portfolio/Marvelizer.jpg",
-    gitHubLink: "https://github.com/Zoneam/Marvelizer",
-    deployedLink: "https://zoneam.github.io/Marvelizer/",
-  },
-  {
-    id: 3,
-    title: "Tech Quiz App",
-    img: "./assets/portfolio/quiz.jpg",
-    gitHubLink: "https://github.com/Zoneam/javascript-quiz",
-    deployedLink: "https://zoneam.github.io/javascript-quiz/",
-  },
-  {
-    id: 4,
-    title: "Weather Dashboard",
-    img: "./assets/portfolio/weather dashboard.png",
-    gitHubLink: "https://github.com/Zoneam/weather-dashboard",
-    deployedLink: "https://zoneam.github.io/weather-dashboard/",
-  },
-  {
-    id: 5,
     title: "Day Scheduler++",
     img: "./assets/portfolio/java_script.png",
     gitHubLink: "https://github.com/Zoneam/day-scheduler",
     deployedLink: "https://zoneam.github.io/day-scheduler/",
   },
   {
-    id: 6,
+    id: 3,
+    title: "Marvelizer",
+    img: "./assets/portfolio/Marvelizer.jpg",
+    gitHubLink: "https://github.com/Zoneam/Marvelizer",
+    deployedLink: "https://zoneam.github.io/Marvelizer/",
+  },
+  {
+    id: 4,
     title: "Note Taker",
     img: "./assets/portfolio/notetaker.png",
     gitHubLink: "https://github.com/Zoneam/Note-Taker",
     deployedLink: "https://noterator.herokuapp.com/",
   },
   {
-    id: 7,
-    title: "Fitnes Metrics+++",
-    img: "./assets/portfolio/notetaker.png",
-    gitHubLink: "https://github.com/Zoneam/Workout-Tracker",
-    deployedLink: "https://fitness-metrics.herokuapp.com/",
+    id: 5,
+    title: "Eventory",
+    img: "./assets/portfolio/Eventory.jpg",
+    gitHubLink: "https://github.com/Zoneam/Eventory",
+    deployedLink: "https://my-eventory.herokuapp.com/",
+  },
+  {
+    id: 6,
+    title: "Tech Quiz App",
+    img: "./assets/portfolio/quiz.jpg",
+    gitHubLink: "https://github.com/Zoneam/javascript-quiz",
+    deployedLink: "https://zoneam.github.io/javascript-quiz/",
   },
 ];
 
-export const webPortfolio = [
+export const projects = [
   {
     id: 1,
     title: "Eventory",
@@ -65,40 +58,44 @@ export const webPortfolio = [
     gitHubLink: "https://github.com/Zoneam/Marvelizer",
     deployedLink: "https://zoneam.github.io/Marvelizer/",
   },
+];
+
+export const webPortfolio = [
   {
-    id: 3,
-    title: "Tech Quiz App",
-    img: "./assets/portfolio/quiz.jpg",
-    gitHubLink: "https://github.com/Zoneam/javascript-quiz",
-    deployedLink: "https://zoneam.github.io/javascript-quiz/",
-  },
-  {
-    id: 4,
-    title: "Weather Dashboard",
-    img: "./assets/portfolio/weather dashboard.png",
-    gitHubLink: "https://github.com/Zoneam/weather-dashboard",
-    deployedLink: "https://zoneam.github.io/weather-dashboard/",
-  },
-  {
-    id: 5,
+    id: 1,
     title: "Day Scheduler++",
     img: "./assets/portfolio/java_script.png",
     gitHubLink: "https://github.com/Zoneam/day-scheduler",
     deployedLink: "https://zoneam.github.io/day-scheduler/",
   },
   {
-    id: 6,
-    title: "Note Taker",
-    img: "./assets/portfolio/notetaker.png",
-    gitHubLink: "https://github.com/Zoneam/Note-Taker",
-    deployedLink: "https://noterator.herokuapp.com/",
+    id: 2,
+    title: "Tech Quiz App",
+    img: "./assets/portfolio/quiz.jpg",
+    gitHubLink: "https://github.com/Zoneam/javascript-quiz",
+    deployedLink: "https://zoneam.github.io/javascript-quiz/",
   },
   {
-    id: 7,
+    id: 3,
+    title: "Weather Dashboard",
+    img: "./assets/portfolio/weather dashboard.png",
+    gitHubLink: "https://github.com/Zoneam/weather-dashboard",
+    deployedLink: "https://zoneam.github.io/weather-dashboard/",
+  },
+  {
+    id: 4,
     title: "Fitnes Metrics+++",
     img: "./assets/portfolio/notetaker.png",
     gitHubLink: "https://github.com/Zoneam/Workout-Tracker",
     deployedLink: "https://fitness-metrics.herokuapp.com/",
+  },
+
+  {
+    id: 5,
+    title: "Note Taker",
+    img: "./assets/portfolio/notetaker.png",
+    gitHubLink: "https://github.com/Zoneam/Note-Taker",
+    deployedLink: "https://noterator.herokuapp.com/",
   },
 ];
 
