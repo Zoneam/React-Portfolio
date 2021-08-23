@@ -47,10 +47,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      color: white;
+      color: rgb(255, 255, 255);
       position: relative;
       transition: all .5s ease;
-      cursor: pointer;
+      user-select: none;
 
       @include mobile{
         width: 130px;
@@ -68,13 +68,14 @@
         object-fit: cover;
         z-index: 1;
       }
-
+    
       &:hover {
         background-color: $mainColor;
         img {
           opacity: 0.2;
           z-index: 0;
         }
+        
       }
     }
   }

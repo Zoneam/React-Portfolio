@@ -3,26 +3,50 @@ export const featuredPortfolio = [
     id: 1,
     title: "Eventory",
     img: "./assets/portfolio/Eventory.jpg",
+    gitHubLink: "https://github.com/Zoneam/Eventory",
+    deployedLink: "https://my-eventory.herokuapp.com/",
   },
   {
     id: 2,
     title: "Marvelizer",
     img: "./assets/portfolio/Marvelizer.jpg",
+    gitHubLink: "https://github.com/Zoneam/Marvelizer",
+    deployedLink: "https://zoneam.github.io/Marvelizer/",
   },
   {
     id: 3,
     title: "Tech Quiz App",
     img: "./assets/portfolio/quiz.jpg",
+    gitHubLink: "https://github.com/Zoneam/javascript-quiz",
+    deployedLink: "https://zoneam.github.io/javascript-quiz/",
   },
   {
     id: 4,
     title: "Weather Dashboard",
     img: "./assets/portfolio/weather dashboard.png",
+    gitHubLink: "https://github.com/Zoneam/weather-dashboard",
+    deployedLink: "https://zoneam.github.io/weather-dashboard/",
   },
   {
     id: 5,
-    title: "Password Generator",
+    title: "Day Scheduler++",
     img: "./assets/portfolio/java_script.png",
+    gitHubLink: "https://github.com/Zoneam/day-scheduler",
+    deployedLink: "https://zoneam.github.io/day-scheduler/",
+  },
+  {
+    id: 6,
+    title: "Note Taker",
+    img: "./assets/portfolio/notetaker.png",
+    gitHubLink: "https://github.com/Zoneam/Note-Taker",
+    deployedLink: "https://noterator.herokuapp.com/",
+  },
+  {
+    id: 7,
+    title: "Fitnes Metrics+++",
+    img: "./assets/portfolio/notetaker.png",
+    gitHubLink: "https://github.com/Zoneam/Workout-Tracker",
+    deployedLink: "https://fitness-metrics.herokuapp.com/",
   },
 ];
 
@@ -31,92 +55,50 @@ export const webPortfolio = [
     id: 1,
     title: "Eventory",
     img: "./assets/portfolio/Eventory.jpg",
+    gitHubLink: "https://github.com/Zoneam/Eventory",
+    deployedLink: "https://my-eventory.herokuapp.com/",
   },
   {
     id: 2,
     title: "Marvelizer",
     img: "./assets/portfolio/Marvelizer.jpg",
+    gitHubLink: "https://github.com/Zoneam/Marvelizer",
+    deployedLink: "https://zoneam.github.io/Marvelizer/",
   },
   {
     id: 3,
     title: "Tech Quiz App",
     img: "./assets/portfolio/quiz.jpg",
+    gitHubLink: "https://github.com/Zoneam/javascript-quiz",
+    deployedLink: "https://zoneam.github.io/javascript-quiz/",
   },
   {
     id: 4,
     title: "Weather Dashboard",
     img: "./assets/portfolio/weather dashboard.png",
+    gitHubLink: "https://github.com/Zoneam/weather-dashboard",
+    deployedLink: "https://zoneam.github.io/weather-dashboard/",
   },
   {
     id: 5,
-    title: "Password Generator",
+    title: "Day Scheduler++",
     img: "./assets/portfolio/java_script.png",
-  },
-];
-
-export const designPortfolio = [
-  {
-    id: 1,
-    title: "Mobile Social Media App",
-    img: "",
-  },
-  {
-    id: 2,
-    title: "Mobile Rampa UI Design",
-    img: "",
-  },
-  {
-    id: 3,
-    title: "Mobile E-commerce Design",
-    img: "",
-  },
-  {
-    id: 4,
-    title: "Mobile Relax App",
-    img: "",
-  },
-  {
-    id: 5,
-    title: "Mobile Hero Design",
-    img: "",
+    gitHubLink: "https://github.com/Zoneam/day-scheduler",
+    deployedLink: "https://zoneam.github.io/day-scheduler/",
   },
   {
     id: 6,
-    title: "Mobile Banking App",
-    img: "",
-  },
-];
-
-export const videoPortfolio = [
-  {
-    id: 1,
-    title: "Mobile Social Media App",
-    img: "",
+    title: "Note Taker",
+    img: "./assets/portfolio/notetaker.png",
+    gitHubLink: "https://github.com/Zoneam/Note-Taker",
+    deployedLink: "https://noterator.herokuapp.com/",
   },
   {
-    id: 2,
-    title: "Mobile Rampa UI Design",
-    img: "",
-  },
-  {
-    id: 3,
-    title: "Mobile E-commerce Design",
-    img: "",
-  },
-  {
-    id: 4,
-    title: "Mobile Relax App",
-    img: "",
-  },
-  {
-    id: 5,
-    title: "Mobile Hero Design",
-    img: "",
-  },
-  {
-    id: 6,
-    title: "Mobile Banking App",
-    img: "",
+    id: 7,
+    title: "Fitnes Metrics+++",
+    img: "./assets/portfolio/notetaker.png",
+    gitHubLink: "https://github.com/Zoneam/Workout-Tracker",
+    deployedLink: "https://fitness-metrics.herokuapp.com/",
   },
 ];
 

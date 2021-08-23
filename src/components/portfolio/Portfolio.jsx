@@ -4,8 +4,6 @@ import "./portfolio.scss";
 import {
   featuredPortfolio,
   webPortfolio,
-  designPortfolio,
-  videoPortfolio
 } from "../../data";
 
 export default function Portfolio() {
@@ -19,15 +17,7 @@ export default function Portfolio() {
     {
       id: "web",
       title: "Web App",
-    },
-    {
-      id: "3d",
-      title: "3D",
-    },
-    {
-      id: "video",
-      title: "Video",
-    },
+    }
   ];
 
   useEffect(() => {
@@ -38,12 +28,6 @@ export default function Portfolio() {
       case "web":
         setData(webPortfolio);
         break;
-      case "3D":
-        setData(designPortfolio);
-        break;
-        case "video":
-          setData(videoPortfolio);
-          break
       default:
         setData(featuredPortfolio);
     }
@@ -65,11 +49,14 @@ export default function Portfolio() {
       <div className="container">
         {data.map((src) => (
           <div className="item">
+           
             <img
               src={src.img}
-              alt=""
+              alt={src.title}
             />
+            <a href={src.gitHubLink} className="portfolioUpper">Github Repo</a>
             <h3>{src.title}</h3>
+            <a href={src.deployedLink} className="portfolioLower">Deployed App</a>
           </div>
         ))}
       </div>

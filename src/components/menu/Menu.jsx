@@ -1,4 +1,5 @@
 import "./menu.scss";
+import { Document } from 'react-pdf';
 
 export default function Menu({ menuOpen, setMenuOpen }) {
   return (
@@ -11,7 +12,8 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <a href="#portfolio">Portfolio</a>
         </li>
         <li onClick={()=>setMenuOpen(false)}>
-          <a href="#works">Works</a>
+
+          <a href="https://docs.google.com/document/d/17wb_GWr1vzIUn_TYKg-FlJqCppiP16EHZISHMEbv-k0/edit?usp=sharing" rel="noreferrer" target="_blank">My Resume</a>
         </li>
         <li onClick={()=>setMenuOpen(false)}>
           <a href="#contact">Contact</a>
