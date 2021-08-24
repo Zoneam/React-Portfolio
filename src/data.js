@@ -8,7 +8,7 @@ export const featuredPortfolio = [
   },
   {
     id: 2,
-    title: "Day Scheduler++",
+    title: "Day Scheduler",
     img: "./assets/portfolio/day-scheduler.png",
     gitHubLink: "https://github.com/Zoneam/day-scheduler",
     deployedLink: "https://zoneam.github.io/day-scheduler/",
