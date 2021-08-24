@@ -1,15 +1,15 @@
 export const featuredPortfolio = [
   {
     id: 1,
-    title: "Fitnes Metrics+++",
-    img: "./assets/portfolio/notetaker.png",
+    title: "Fitnes Metrics",
+    img: "./assets/portfolio/fitness-metric.png",
     gitHubLink: "https://github.com/Zoneam/Workout-Tracker",
     deployedLink: "https://fitness-metrics.herokuapp.com/",
   },
   {
     id: 2,
     title: "Day Scheduler++",
-    img: "./assets/portfolio/java_script.png",
+    img: "./assets/portfolio/day-scheduler.png",
     gitHubLink: "https://github.com/Zoneam/day-scheduler",
     deployedLink: "https://zoneam.github.io/day-scheduler/",
   },
@@ -63,8 +63,8 @@ export const projects = [
 export const webPortfolio = [
   {
     id: 1,
-    title: "Day Scheduler++",
-    img: "./assets/portfolio/java_script.png",
+    title: "Day Scheduler",
+    img: "./assets/portfolio/day-scheduler.png",
     gitHubLink: "https://github.com/Zoneam/day-scheduler",
     deployedLink: "https://zoneam.github.io/day-scheduler/",
   },
@@ -84,8 +84,8 @@ export const webPortfolio = [
   },
   {
     id: 4,
-    title: "Fitnes Metrics+++",
-    img: "./assets/portfolio/notetaker.png",
+    title: "Fitnes Metrics",
+    img: "./assets/portfolio/fitness-metric.png",
     gitHubLink: "https://github.com/Zoneam/Workout-Tracker",
     deployedLink: "https://fitness-metrics.herokuapp.com/",
   },
