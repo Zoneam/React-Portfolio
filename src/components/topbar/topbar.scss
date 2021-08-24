@@ -27,6 +27,9 @@
         color: inherit;
         margin-right: 40px;
    
+        @include mobile {
+          margin-right: -18px;
+        }
       }
 
       .itemContainer {
@@ -34,9 +37,8 @@
         align-items: center;
         margin-left: 30px;
 
-        @include mobile{
-          display: none;
-        }
+        
+           
       a{
         display: flex;
         align-items: center;
@@ -51,7 +53,11 @@
           font-size: 18px;
           font-weight: 500;
      //-------
-
+   
+      @include mobile{
+       display: none;
+      
+     }
         }    
 
         }

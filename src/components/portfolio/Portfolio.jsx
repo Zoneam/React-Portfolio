@@ -8,9 +8,13 @@ import {
 } from "../../data";
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("projects");
+  const [selected, setSelected] = useState("featured");
   const [data, setData] = useState([]);
   const list = [
+    {
+      id: "featured",
+      title: "Featured",
+    },
     {
       id: "projects",
       title: "Projects",
@@ -19,24 +23,21 @@ export default function Portfolio() {
       id: "web",
       title: "Web Apps",
     },
-    {
-      id: "featured",
-      title: "Featured",
-    }
+
 
   ];
 
   useEffect(() => {
     switch (selected) {
+      case "featured":
+        setData(featuredPortfolio);
+        break;
       case "projects":
         setData(projects);
         break;
       case "web":
         setData(webPortfolio);
         break;
-        case "featured":
-          setData(featuredPortfolio);
-          break;
       default:
         setData(featuredPortfolio);
     }

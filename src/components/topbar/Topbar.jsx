@@ -21,7 +21,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <a href="https://www.linkedin.com/in/hayk-mnatsakanyan-34041096/" target="_blank" rel="noreferrer"><LinkedInIcon className="icon" /><span>LinkedIn</span></a>
           </div>
           <div className="itemContainer">
-          <a href="https://github.com/Zoneam" target="_blank" rel="noreferrer"><GitHubIcon className="icon" /><span>GitHub</span></a>
+          <a href="https://github.com/Zoneam" target="_blank" rel="noreferrer"><GitHubIcon className="icon" /><span className="contactText">GitHub</span></a>
           </div>
         </div>
         <div className="right">
